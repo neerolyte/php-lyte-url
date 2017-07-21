@@ -1,0 +1,31 @@
+{
+  "name": "lyte/url",
+  "description": "Manipulate URLs including calculating from a common base",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Schoen",
+      "email": "dave@lyte.id.au"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "satooshi/php-coveralls": "*",
+    "codeclimate/php-test-reporter": "dev-master"
+  },
+  "scripts": {
+    "test": [
+      "phpunit --verbose --debug"
+    ]
+  },
+  "autoload": {
+    "psr-4": {
+      "Lyte\\URL\\": "src/",
+      "Lyte\\URL\\Tests\\": "tests/"
+    }
+  }
+}
