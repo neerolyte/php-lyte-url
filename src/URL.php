@@ -2,7 +2,7 @@
 /**
  * URL parsing and translation
  */
-namespace Lyte\url;
+namespace Lyte\URL;
 class URL {
 	/**
 	 * The various components of a URL

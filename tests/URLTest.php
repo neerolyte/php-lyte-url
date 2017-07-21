@@ -1,6 +1,6 @@
 <?php
 namespace Lyte\URL\Tests;
-use Lyte\URL\url;
+use Lyte\URL\URL;
 class URLTest extends TestCase {
 	public function testTranslateLinkSiteRelative() {
 		$url = new URL('http://example.com/foo/bar');
